@@ -1,0 +1,30 @@
+.login {
+  .form {
+    margin-top: 10rem;
+    input {
+      width: 100%;
+      padding: 20px 50px;
+      font-size: 1rem;
+      border: none;
+      outline: none;
+      border-bottom: 3px solid $danger;
+      background-color: $red-2;
+      color: $dark;
+
+      &:focus,
+      &:active {
+        border-color: $success;
+        background-color: $green-2;
+      }
+    }
+    .form-btn {
+      margin-left: 5rem;
+    }
+  }
+}
+p.form-tagline {
+  font-size: 1rem;
+  a {
+    color: $success;
+  }
+}

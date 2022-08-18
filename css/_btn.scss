@@ -1,0 +1,292 @@
+button.btn {
+  border-radius: 50px;
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.btn {
+  border-radius: 50px;
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.btn-primary {
+  background-color: $primary;
+  color: $light;
+  transition: all 0.3s;
+  &:hover {
+    background-color: darken($primary, 10);
+  }
+  &:focus,
+  &:active {
+    box-shadow: 0 0 0 0.25rem lighten($primary, 30);
+  }
+}
+.btn-danger {
+  background-color: $danger;
+  color: $light;
+  transition: all 0.3s;
+  &:hover {
+    background-color: darken($danger, 10);
+  }
+  &:focus,
+  &:active {
+    box-shadow: 0 0 0 0.25rem lighten($danger, 30);
+  }
+}
+.btn-success {
+  background-color: $success;
+  color: $light;
+  transition: all 0.3s;
+  &:hover {
+    background-color: darken($success, 10);
+  }
+  &:focus,
+  &:active {
+    box-shadow: 0 0 0 0.25rem lighten($success, 30);
+  }
+}
+.btn-info {
+  background-color: $info;
+  color: $light;
+  transition: all 0.3s;
+  &:hover {
+    background-color: darken($info, 10);
+  }
+  &:focus,
+  &:active {
+    box-shadow: 0 0 0 0.25rem lighten($info, 30);
+  }
+}
+.btn-warning {
+  background-color: $warning;
+  color: $light;
+  transition: all 0.3s;
+  &:hover {
+    background-color: darken($warning, 10);
+  }
+  &:focus,
+  &:active {
+    box-shadow: 0 0 0 0.25rem lighten($warning, 30);
+  }
+}
+.btn-light {
+  background-color: $light;
+  color: $dark;
+  transition: all 0.3s;
+  &:hover {
+    background-color: darken($light, 10);
+  }
+  &:focus,
+  &:active {
+    box-shadow: 0 0 0 0.25rem lighten($light, 30);
+  }
+}
+.btn-dark {
+  background-color: $dark;
+  color: $light;
+  transition: all 0.3s;
+  &:hover {
+    background-color: darken($dark, 10);
+  }
+  &:focus,
+  &:active {
+    box-shadow: 0 0 0 0.25rem lighten($dark, 30);
+  }
+}
+.btn-secondry {
+  background-color: $secondry;
+  color: $light;
+  transition: all 0.3s;
+  &:hover {
+    background-color: darken($secondry, 10);
+  }
+  &:focus,
+  &:active {
+    box-shadow: 0 0 0 0.25rem lighten($secondry, 30);
+  }
+}
+.btn-red-9 {
+  background-color: $red-9;
+  color: $light;
+  transition: all 0.3s;
+  &:hover {
+    background-color: darken($red-9, 10);
+  }
+  &:focus,
+  &:active {
+    box-shadow: 0 0 0 0.25rem lighten($red-9, 40);
+  }
+}
+.btn-red-8 {
+  background-color: $red-8;
+  color: $light;
+  transition: all 0.3s;
+  &:hover {
+    background-color: darken($red-8, 10);
+  }
+  &:focus,
+  &:active {
+    box-shadow: 0 0 0 0.25rem lighten($red-8, 40);
+  }
+}
+.btn-red-7 {
+  background-color: $red-7;
+  color: $light;
+  transition: all 0.3s;
+  &:hover {
+    background-color: darken($red-7, 10);
+  }
+  &:focus,
+  &:active {
+    box-shadow: 0 0 0 0.25rem lighten($red-7, 40);
+  }
+}
+.btn-red-6 {
+  background-color: $red-6;
+  color: $light;
+  transition: all 0.3s;
+  &:hover {
+    background-color: darken($red-6, 10);
+  }
+  &:focus,
+  &:active {
+    box-shadow: 0 0 0 0.25rem lighten($red-6, 40);
+  }
+}
+.btn-red-5 {
+  background-color: $red-5;
+  color: $light;
+  transition: all 0.3s;
+  &:hover {
+    background-color: darken($red-5, 10);
+  }
+  &:focus,
+  &:active {
+    box-shadow: 0 0 0 0.25rem lighten($red-5, 20);
+  }
+}
+.btn-green-9 {
+  background-color: $green-9;
+  color: $light;
+  transition: all 0.3s;
+  &:hover {
+    background-color: darken($green-9, 10);
+  }
+  &:focus,
+  &:active {
+    box-shadow: 0 0 0 0.25rem lighten($green-9, 50);
+  }
+}
+.btn-green-8 {
+  background-color: $green-8;
+  color: $light;
+  transition: all 0.3s;
+  &:hover {
+    background-color: darken($green-8, 10);
+  }
+  &:focus,
+  &:active {
+    box-shadow: 0 0 0 0.25rem lighten($green-8, 50);
+  }
+}
+.btn-green-7 {
+  background-color: $green-7;
+  color: $light;
+  transition: all 0.3s;
+  &:hover {
+    background-color: darken($green-7, 10);
+  }
+  &:focus,
+  &:active {
+    box-shadow: 0 0 0 0.25rem lighten($green-7, 50);
+  }
+}
+.btn-green-6 {
+  background-color: $green-6;
+  color: $light;
+  transition: all 0.3s;
+  &:hover {
+    background-color: darken($green-6, 10);
+  }
+  &:focus,
+  &:active {
+    box-shadow: 0 0 0 0.25rem lighten($green-6, 30);
+  }
+}
+.btn-green-5 {
+  background-color: $green-5;
+  color: $light;
+  transition: all 0.3s;
+  &:hover {
+    background-color: darken($green-5, 10);
+  }
+  &:focus,
+  &:active {
+    box-shadow: 0 0 0 0.25rem lighten($green-5, 30);
+  }
+}
+.btn-purple-9 {
+  background-color: $purple-9;
+  color: $light;
+  transition: all 0.3s;
+  &:hover {
+    background-color: darken($purple-9, 10);
+  }
+  &:focus,
+  &:active {
+    box-shadow: 0 0 0 0.25rem lighten($purple-9, 50);
+  }
+}
+.btn-purple-8 {
+  background-color: $purple-8;
+  color: $light;
+  transition: all 0.3s;
+  &:hover {
+    background-color: darken($purple-8, 10);
+  }
+  &:focus,
+  &:active {
+    box-shadow: 0 0 0 0.25rem lighten($purple-8, 50);
+  }
+}
+.btn-purple-7 {
+  background-color: $purple-7;
+  color: $light;
+  transition: all 0.3s;
+  &:hover {
+    background-color: darken($purple-7, 10);
+  }
+  &:focus,
+  &:active {
+    box-shadow: 0 0 0 0.25rem lighten($purple-7, 40);
+  }
+}
+.btn-purple-6 {
+  background-color: $purple-6;
+  color: $light;
+  transition: all 0.3s;
+  &:hover {
+    background-color: darken($purple-6, 10);
+  }
+  &:focus,
+  &:active {
+    box-shadow: 0 0 0 0.25rem lighten($purple-6, 30);
+  }
+}
+.btn-purple-5 {
+  background-color: $purple-5;
+  color: $light;
+  transition: all 0.3s;
+  &:hover {
+    background-color: darken($purple-5, 10);
+  }
+  &:focus,
+  &:active {
+    box-shadow: 0 0 0 0.25rem lighten($purple-5, 20);
+  }
+}

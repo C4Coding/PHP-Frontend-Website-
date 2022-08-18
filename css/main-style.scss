@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins&family=Roboto&family=Work+Sans&display=swap");
+@import "var";
+@import "bundle";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $light;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: lighten($dark, 20);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: lighten($dark, 10);
+}
+body {
+  font-family: $font-poppins;
+  font-size: 65.5%;
+  a {
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: $font-work-sans;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: $font-roboto;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  h3 {
+    font-size: 1.4rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
+  ul {
+    list-style-type: none;
+  }
+}
+@import "login";
+@import "header";
+@import "hero";
+@import "footer";
+@import "about";

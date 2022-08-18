@@ -1,0 +1,24 @@
+@media screen and (max-width: 760px) {
+  .navbar {
+    .nav {
+      #nav-links {
+        display: none;
+      }
+      .link {
+        display: block;
+      }
+      button.icon.link {
+        display: block;
+        position: absolute;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 10px;
+        top: 0;
+        left: 0;
+      }
+    }
+  }
+}
+.navbar .nav .icon {
+  display: none;
+}

@@ -1,0 +1,75 @@
+.text-primary {
+  color: $primary;
+}
+.text-secondry {
+  color: $secondry;
+}
+.text-success {
+  color: $success;
+}
+.text-info {
+  color: $info;
+}
+.text-warning {
+  color: $warning;
+}
+.text-danger {
+  color: $danger;
+}
+.text-light {
+  color: $light;
+}
+.text-dark {
+  color: $dark;
+}
+.hover-text-primary {
+  transition: all 0.3s;
+  &:hover {
+    color: $primary;
+  }
+}
+.hover-text-secondry {
+  transition: all 0.3s;
+  &:hover {
+    color: $secondry;
+  }
+}
+.hover-text-success {
+  transition: all 0.3s;
+  &:hover {
+    color: $success;
+  }
+}
+.hover-text-info {
+  transition: all 0.3s;
+  &:hover {
+    color: $info;
+  }
+}
+.hover-text-warning {
+  transition: all 0.3s;
+  &:hover {
+    color: $warning;
+  }
+}
+.hover-text-danger {
+  transition: all 0.3s;
+  &:hover {
+    color: $danger;
+  }
+}
+.hover-text-light {
+  transition: all 0.3s;
+  &:hover {
+    color: $light;
+  }
+}
+.hover-text-dark {
+  transition: all 0.3s;
+  &:hover {
+    color: $dark;
+  }
+}
+.text-center {
+  text-align: center;
+}
